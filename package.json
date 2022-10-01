@@ -1,0 +1,32 @@
+{
+  "name": "ocr-api",
+  "version": "1.0.0",
+  "description": "Simple ORC api made with tesseract.js and fastify",
+  "main": "index.js",
+  "scripts": {
+    "start": "esrun index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victoreisdavid/ocr-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victoreisdavid/ocr-api/issues"
+  },
+  "homepage": "https://github.com/Victoreisdavid/ocr-api#readme",
+  "dependencies": {
+    "@fastify/multipart": "^7.2.0",
+    "fastify": "^4.7.0",
+    "file-type": "^18.0.0",
+    "sharp": "^0.31.1",
+    "tesseract.js": "^3.0.3"
+  },
+  "devDependencies": {
+    "@digitak/esrun": "^3.2.11",
+    "@types/node": "^18.7.23",
+    "typescript": "^4.8.4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "validMimes": [
+        "image/jpeg",
+        "image/jpg",
+        "image/png",
+        "image/bmp",
+        "image/webp",
+        "image/x-portable-bitmap"
+    ],
+    "ocr_workers": 4
+}
